@@ -1,7 +1,7 @@
 package com.section3;
 import java.util.Scanner;
 
-public class Ex1007 {
+public class Ex1008 {
 	public static void main(String[] args) {
 		String str ="";
 		Scanner in = new Scanner(System.in);

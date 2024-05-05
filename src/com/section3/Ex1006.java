@@ -22,7 +22,7 @@ public class Ex1006 {
 
 		String str4 = "I like to eat ice cream.";
 		System.out.println(str4.substring(14).toUpperCase());
-		System.out.println(str4.indexof("ice"));
+		System.out.println(str4.indexOf("ice"));
 
 	}
 }

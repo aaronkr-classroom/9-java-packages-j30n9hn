@@ -7,8 +7,8 @@ import java.util.Date;
 
 public class Ex1011 {
 	public static int getDiffYears(Date first, Date last) {
-		Calendar a = getCalender(first);
-		Calendar b = getCalender(last);
+		Calendar a = getCalnedar(first);
+		Calendar b = getCalnedar(last);
 		int diff = b.get(YEAR) - a.get(YEAR);
 
 		if (a.get(MONTH) > b.get(MONTH) || (a.get(MONTH) == b.get(MONTH) && a.get(DATE) > b.get(DATE))) {
@@ -17,12 +17,12 @@ public class Ex1011 {
 		return diff;
 	}
 	public static Calendar getCalnedar(Date date) {
-		Calendar cal = Calendar.getInstance(Locale.Korea);
+		Calendar cal = Calendar.getInstance(Locale.KOREA);
 		cal.setTime(date);
 		return cal;
 	}
 	public static void main(String[] args) {
-		Calendar cal = Calendar.getInstace();
+		Calendar cal = Calendar.getInstance();
 		System.out.print("현재 날짜: ");
 		System.out.print(cal.get(Calendar.YEAR) + "년");
 		System.out.print((cal.get(Calendar.MONTH) + 1) + "년");

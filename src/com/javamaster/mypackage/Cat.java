@@ -2,7 +2,7 @@ package com.javamaster.mypackage;
 
 public class Cat {
 	String breed;
-	string color;
+	String color;
 
 	public String eat() {
 		String result = "먹이를 먹다";
